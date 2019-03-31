@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<keys
+   name="My custom shortcuts">
+  <bind
+     key="m"
+     modifiers="Ctrl,Shift"
+     action="ObjectSetClipPath"
+     display="true" />
+  <bind
+     key="M"
+     modifiers="Ctrl,Shift"
+     action="ObjectSetClipPath" />
+  <bind
+     key="d"
+     modifiers="Ctrl,Shift"
+     action="SelectionDiff"
+     display="true" />
+  <bind
+     key="D"
+     modifiers="Ctrl,Shift"
+     action="SelectionDiff" />
+  <bind
+     key="n"
+     action="ToolNode"
+     display="true" />
+  <bind
+     key="N"
+     action="ToolNode" />
+  <bind
+     key="u"
+     modifiers="Ctrl,Shift"
+     action="SelectionUnion"
+     display="true" />
+  <bind
+     key="U"
+     modifiers="Ctrl,Shift"
+     action="SelectionUnion" />
+  <bind
+     key="i"
+     modifiers="Ctrl,Shift"
+     action="SelectionIntersect"
+     display="true" />
+  <bind
+     key="I"
+     modifiers="Ctrl,Shift"
+     action="SelectionIntersect" />
+  <bind
+     key="1"
+     modifiers="Ctrl"
+     action="ToggleSnapGlobal"
+     display="true" />
+  <bind
+     key="1"
+     modifiers="Ctrl"
+     action="ToggleSnapGlobal" />
+</keys>
