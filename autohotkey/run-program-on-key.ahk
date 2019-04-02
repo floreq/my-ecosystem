@@ -5,14 +5,19 @@
     Run "C:\Program Files\Mozilla Firefox\firefox.exe" -private-window"
 Return
 
+; Ctrl+SHIFT+PgUp - Open Chrome as incognito
+^+PgUp::
+    Run "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" -incognito"
+Return
+
 ; Ctrl+PgDn - Open Firefox
 ^PgDn::
     Run "C:\Program Files\Mozilla Firefox\firefox.exe"
 Return
 
-; Ctrl+SHIFT+INS - Open Chrome as incognito
-^+INS::
-    Run "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" -incognito"
+; Ctrl+SHIFT+PgDn - Open Chrome as incognito
+^+PgDn::
+    Run "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
 Return
 
 ; Ctrl+INS - Open Chrome Translate as incognito
