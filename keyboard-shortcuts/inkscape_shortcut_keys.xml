@@ -53,4 +53,22 @@
      key="1"
      modifiers="Ctrl"
      action="ToggleSnapGlobal" />
+  <bind
+     key="p"
+     action="ToolDropper"
+     display="true" />
+  <bind
+     key="P"
+     action="ToolDropper" />
+  <bind
+     key="m"
+     action="ToolSelector"
+     display="true" />
+  <bind
+     key="M"
+     action="ToolSelector" />
+  <bind
+     key="Insert"
+     action="EditUndo"
+     display="true" />
 </keys>
