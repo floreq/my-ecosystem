@@ -28,10 +28,12 @@ Return
 ; switch virtual desktops
 ; switch to previous virtual desktop
 >+Right::
+WheelRight::
     sendevent {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
 Return
 
 ; switch to previous virtual desktop
 >+Left::
+WheelLeft::
     sendevent {LWin down}{LCtrl down}{Left down}{Lwin up}{LCtrl up}{Left up}
 Return
