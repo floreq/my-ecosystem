@@ -25,15 +25,20 @@ Return
     Run "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --app="https://translate.google.com/?hl=pl#view=home&op=translate&sl=en&tl=pl" -incognito"
 Return
 
-; switch virtual desktops
-; switch to previous virtual desktop
+; Switch virtual desktops
+; Switch to previous virtual desktop
 >+Right::
 WheelRight::
     sendevent {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
 Return
 
-; switch to previous virtual desktop
+; Switch to previous virtual desktop
 >+Left::
 WheelLeft::
     sendevent {LWin down}{LCtrl down}{Left down}{Lwin up}{LCtrl up}{Left up}
+Return
+
+; Shift+Wheel for horizontal scrolling
++WheelDown::WheelRight
++WheelUp::WheelLeft
 Return
