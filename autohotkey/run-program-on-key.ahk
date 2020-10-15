@@ -38,7 +38,7 @@ WheelLeft::
     sendevent {LWin down}{LCtrl down}{Left down}{Lwin up}{LCtrl up}{Left up}
 Return
 
-; Shift+Wheel for horizontal scrolling
-+WheelDown::WheelRight
-+WheelUp::WheelLeft
+;Alt+Shift+Wheel for horizontal scrolling
+!+WheelDown::WheelRight
+!+WheelUp::WheelLeft
 Return
