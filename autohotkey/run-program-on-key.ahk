@@ -28,13 +28,11 @@ Return
 ; Switch virtual desktops
 ; Switch to previous virtual desktop
 >+Right::
-WheelRight::
     sendevent {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
 Return
 
 ; Switch to previous virtual desktop
 >+Left::
-WheelLeft::
     sendevent {LWin down}{LCtrl down}{Left down}{Lwin up}{LCtrl up}{Left up}
 Return
 
@@ -42,3 +40,8 @@ Return
 !+WheelDown::WheelRight
 !+WheelUp::WheelLeft
 Return
+
+;Shift+Alt+D: Insert current date
++!d:: 
+SendInput %A_DD%/%A_MM%/%A_YYYY% %A_Hour%:%A_Min%:%A_Sec%
+return
